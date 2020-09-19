@@ -1,15 +1,8 @@
 require 'pry'
 
-def second_supply_for_fourth_of_july(holiday_hash)
-  holiday_hash.each do |season, holiday|
-    puts "#{holiday}: #{season}"
-   
-     holiday.each do |food, decoration|
-      puts "#{food}: #{decoration}"
-      binding.pry
-  end
-  end
- end
+def second_supply_for_fourth_of_july(holiday_supplies)
+  holiday_supplies[:summer][:fourth_of_july][1]
+end
  
   # given that holiday_hash looks like this:
   # {
