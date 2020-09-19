@@ -6,7 +6,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
    
      holiday.each do |food, decoration|
       puts "#{food}: #{decoration}"
-      if decoration.include?
+      binding.pry
   end
   end
  end
